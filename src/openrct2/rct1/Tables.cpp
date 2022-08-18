@@ -272,18 +272,18 @@ namespace RCT1
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STEEL_ROLLER_COASTER_TRAIN = 0,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STEEL_ROLLER_COASTER_TRAIN_BACKWARDS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_WOODEN_ROLLER_COASTER_TRAIN,
-            { COPY_COLOUR_1, COPY_COLOUR_2, COPY_COLOUR_2 }, // RCT1_VEHICLE_TYPE_INVERTED_COASTER_TRAIN, // Not in RCT2
-            { COPY_COLOUR_1, COPY_COLOUR_2, COPY_COLOUR_2 }, // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_CARS,
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_INVERTED_COASTER_TRAIN, // Not in RCT2
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_CARS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_LADYBIRD_CARS,
-            { COPY_COLOUR_1, COPY_COLOUR_1, COPY_COLOUR_2 }, // RCT1_VEHICLE_TYPE_STANDUP_ROLLER_COASTER_CARS,
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STANDUP_ROLLER_COASTER_CARS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_SPINNING_CARS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_SINGLE_PERSON_SWINGING_CHAIRS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_SWANS_PEDAL_BOATS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_DARK_BLUE }, // RCT1_VEHICLE_TYPE_LARGE_MONORAIL_TRAIN,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_CANOES,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_ROWING_BOATS,
-            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STEAM_TRAIN,
-            { COPY_COLOUR_1, COPY_COLOUR_2, COPY_COLOUR_2 }, // RCT1_VEHICLE_TYPE_WOODEN_MOUSE_CARS,
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_YELLOW }, // RCT1_VEHICLE_TYPE_STEAM_TRAIN,
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_WOODEN_MOUSE_CARS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_BUMPER_BOATS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_WOODEN_ROLLER_COASTER_TRAIN_BACKWARDS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_ROCKET_CARS,
@@ -306,7 +306,7 @@ namespace RCT1
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_TRUCKS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_GO_KARTS,
             { COPY_COLOUR_1, COLOUR_BLACK, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_RAPIDS_BOATS,
-            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_LOG_FLUME_BOATS,
+            { COPY_COLOUR_1, COLOUR_BLACK, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_LOG_FLUME_BOATS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_DODGEMS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_SWINGING_SHIP,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_SWINGING_INVERTER_SHIP,
@@ -327,9 +327,9 @@ namespace RCT1
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STEEL_TWISTER_ROLLER_COASTER_TRAIN,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_WOODEN_TWISTER_ROLLER_COASTER_TRAIN,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_WOODEN_SIDE_FRICTION_CARS,
-            { COPY_COLOUR_1, COPY_COLOUR_1, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_VINTAGE_CARS,
-            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STEAM_TRAIN_COVERED_CARS,
-            { COPY_COLOUR_1, COLOUR_BLACK, COPY_COLOUR_2 }, // RCT1_VEHICLE_TYPE_STAND_UP_STEEL_TWISTER_ROLLER_COASTER_TRAIN,
+            { COPY_COLOUR_1, COLOUR_BLACK, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_VINTAGE_CARS,
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_YELLOW }, // RCT1_VEHICLE_TYPE_STEAM_TRAIN_COVERED_CARS,
+            { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STAND_UP_STEEL_TWISTER_ROLLER_COASTER_TRAIN,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_FLOORLESS_STEEL_TWISTER_ROLLER_COASTER_TRAIN,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_STEEL_MOUSE_CARS,
             { COPY_COLOUR_1, COPY_COLOUR_2, COLOUR_BLACK }, // RCT1_VEHICLE_TYPE_CHAIRLIFT_CARS_ALTERNATIVE,
@@ -700,32 +700,32 @@ namespace RCT1
     {
         static constexpr const char * map[] =
         {
-            "rct2.ride.ptct1",           // RCT1_RIDE_TYPE_WOODEN_ROLLER_COASTER
-            "rct2.ride.togst",           // RCT1_RIDE_TYPE_STAND_UP_STEEL_ROLLER_COASTER
-            "rct2.ride.arrsw1",          // RCT1_RIDE_TYPE_SUSPENDED_ROLLER_COASTER
-            "rct2.ride.nemt",            // RCT1_RIDE_TYPE_INVERTED_ROLLER_COASTER
+            "rct1.ride.wooden_rc_trains",           // RCT1_RIDE_TYPE_WOODEN_ROLLER_COASTER
+            "rct1.ride.stand_up_trains",           // RCT1_RIDE_TYPE_STAND_UP_STEEL_ROLLER_COASTER
+            "rct1.ride.suspended_swinging_cars",          // RCT1_RIDE_TYPE_SUSPENDED_ROLLER_COASTER
+            "rct1ll.ride.4_across_inverted_trains",            // RCT1_RIDE_TYPE_INVERTED_ROLLER_COASTER
             "rct1.ride.ladybird_trains", // RCT1_RIDE_TYPE_STEEL_MINI_ROLLER_COASTER
-            "rct2.ride.nrl",             // RCT1_RIDE_TYPE_MINIATURE_RAILWAY
-            "rct2.ride.mono2",           // RCT1_RIDE_TYPE_MONORAIL
-            "rct2.ride.batfl",           // RCT1_RIDE_TYPE_SUSPENDED_SINGLE_RAIL_ROLLER_COASTER
+            "rct1.ride.steam_trains",             // RCT1_RIDE_TYPE_MINIATURE_RAILWAY
+            "rct1.ride.small_monorail_cars",           // RCT1_RIDE_TYPE_MONORAIL
+            "rct1.ride.single_person_swinging_cars",           // RCT1_RIDE_TYPE_SUSPENDED_SINGLE_RAIL_ROLLER_COASTER
             "rct2.ride.rboat",           // RCT1_RIDE_TYPE_BOAT_HIRE
-            "rct2.ride.wmouse",          // RCT1_RIDE_TYPE_WOODEN_CRAZY_RODENT_ROLLER_COASTER
-            "rct2.ride.steep1",          // RCT1_RIDE_TYPE_SINGLE_RAIL_ROLLER_COASTER
-            "rct2.ride.spcar",           // RCT1_RIDE_TYPE_CAR_RIDE
+            "rct1.ride.mouse_cars",          // RCT1_RIDE_TYPE_WOODEN_CRAZY_RODENT_ROLLER_COASTER
+            "rct1.ride.horses",          // RCT1_RIDE_TYPE_SINGLE_RAIL_ROLLER_COASTER
+            "rct1.ride.sports_cars",           // RCT1_RIDE_TYPE_CAR_RIDE
             "rct2.ride.ssc1",            // RCT1_RIDE_TYPE_LAUNCHED_FREEFALL
-            "rct2.ride.bob1",            // RCT1_RIDE_TYPE_BOBSLED_ROLLER_COASTER
+            "rct1.ride.bobsleigh_trains",            // RCT1_RIDE_TYPE_BOBSLED_ROLLER_COASTER
             "rct2.ride.obs1",            // RCT1_RIDE_TYPE_OBSERVATION_TOWER
-            "rct2.ride.scht1",           // RCT1_RIDE_TYPE_STEEL_ROLLER_COASTER
-            "rct2.ride.ding1",           // RCT1_RIDE_TYPE_WATER_SLIDE
-            "rct2.ride.amt1",            // RCT1_RIDE_TYPE_MINE_TRAIN_ROLLER_COASTER
-            "rct2.ride.clift1",          // RCT1_RIDE_TYPE_CHAIRLIFT
-            "rct2.ride.arrt1",           // RCT1_RIDE_TYPE_STEEL_CORKSCREW_ROLLER_COASTER
+            "rct1.ride.steel_rc_trains",           // RCT1_RIDE_TYPE_STEEL_ROLLER_COASTER
+            "rct1.ride.dinghies",           // RCT1_RIDE_TYPE_WATER_SLIDE
+            "rct1.ride.mine_trains",            // RCT1_RIDE_TYPE_MINE_TRAIN_ROLLER_COASTER
+            "rct1.ride.chairlift_cars",          // RCT1_RIDE_TYPE_CHAIRLIFT
+            "rct1.ride.corkscrew_trains",           // RCT1_RIDE_TYPE_STEEL_CORKSCREW_ROLLER_COASTER
             "rct2.ride.hmaze",           // RCT1_RIDE_TYPE_HEDGE_MAZE
             "rct2.ride.hskelt",          // RCT1_RIDE_TYPE_SPIRAL_SLIDE
-            "rct2.ride.kart1",           // RCT1_RIDE_TYPE_GO_KARTS
-            "rct2.ride.lfb1",            // RCT1_RIDE_TYPE_LOG_FLUME
-            "rct2.ride.rapboat",         // RCT1_RIDE_TYPE_RIVER_RAPIDS
-            "rct2.ride.dodg1",           // RCT1_RIDE_TYPE_DODGEMS
+            "rct1.ride.go_karts",           // RCT1_RIDE_TYPE_GO_KARTS
+            "rct1.ride.logs",            // RCT1_RIDE_TYPE_LOG_FLUME
+            "rct1.ride.river_rapids_boats",         // RCT1_RIDE_TYPE_RIVER_RAPIDS
+            "rct1.ride.dodgems",           // RCT1_RIDE_TYPE_DODGEMS
             "rct2.ride.swsh1",           // RCT1_RIDE_TYPE_SWINGING_SHIP
             "rct2.ride.swsh2",           // RCT1_RIDE_TYPE_SWINGING_INVERTER_SHIP
             "rct2.ride.icecr1",          // RCT1_RIDE_TYPE_ICE_CREAM_STALL
@@ -742,44 +742,44 @@ namespace RCT1
             "rct2.ride.c3d",             // RCT1_RIDE_TYPE_3D_CINEMA
             "rct2.ride.topsp1",          // RCT1_RIDE_TYPE_TOP_SPIN
             "rct2.ride.srings",          // RCT1_RIDE_TYPE_SPACE_RINGS
-            "rct2.ride.revf1",           // RCT1_RIDE_TYPE_REVERSE_FREEFALL_ROLLER_COASTER
+            "rct1.ride.reverse_freefall_car",           // RCT1_RIDE_TYPE_REVERSE_FREEFALL_ROLLER_COASTER
             "rct2.ride.souvs",           // RCT1_RIDE_TYPE_SOUVENIR_STALL
-            "rct2.ride.bmvd",            // RCT1_RIDE_TYPE_VERTICAL_ROLLER_COASTER
+            "rct1.ride.vertical_drop_trains",            // RCT1_RIDE_TYPE_VERTICAL_ROLLER_COASTER
             "rct2.ride.pizzs",           // RCT1_RIDE_TYPE_PIZZA_STALL
             "rct2.ride.twist1",          // RCT1_RIDE_TYPE_TWIST
             "rct2.ride.hhbuild",         // RCT1_RIDE_TYPE_HAUNTED_HOUSE
             "rct2.ride.popcs",           // RCT1_RIDE_TYPE_POPCORN_STALL
             "rct2.ride.circus1",         // RCT1_RIDE_TYPE_CIRCUS
-            "rct2.ride.gtc",             // RCT1_RIDE_TYPE_GHOST_TRAIN
-            "rct2.ride.bmsd",            // RCT1_RIDE_TYPE_STEEL_TWISTER_ROLLER_COASTER
-            "rct2.ride.mft",             // RCT1_RIDE_TYPE_WOODEN_TWISTER_ROLLER_COASTER
-            "rct2.ride.sfric1",          // RCT1_RIDE_TYPE_WOODEN_SIDE_FRICTION_ROLLER_COASTER
-            "rct2.ride.smc1",            // RCT1_RIDE_TYPE_STEEL_WILD_MOUSE_ROLLER_COASTER
+            "rct1aa.ride.ghost_train_cars",             // RCT1_RIDE_TYPE_GHOST_TRAIN
+            "rct1aa.ride.twister_trains",            // RCT1_RIDE_TYPE_STEEL_TWISTER_ROLLER_COASTER
+            "rct1aa.ride.wooden_articulated_trains",             // RCT1_RIDE_TYPE_WOODEN_TWISTER_ROLLER_COASTER
+            "rct1aa.ride.side_friction_cars",          // RCT1_RIDE_TYPE_WOODEN_SIDE_FRICTION_ROLLER_COASTER
+            "rct1aa.ride.steel_wild_mouse_cars",            // RCT1_RIDE_TYPE_STEEL_WILD_MOUSE_ROLLER_COASTER
             "rct2.ride.hotds",           // RCT1_RIDE_TYPE_HOT_DOG_STALL
             "rct2.ride.sqdst",           // RCT1_RIDE_TYPE_EXOTIC_SEA_FOOD_STALL
             "rct2.ride.hatst",           // RCT1_RIDE_TYPE_HAT_STALL
             "rct2.ride.toffs",           // RCT1_RIDE_TYPE_TOFFEE_APPLE_STALL
-            "rct2.ride.vreel",           // RCT1_RIDE_TYPE_VIRGINIA_REEL
-            "rct2.ride.spboat",          // RCT1_RIDE_TYPE_RIVER_RIDE
-            "rct2.ride.monbk",           // RCT1_RIDE_TYPE_CYCLE_MONORAIL
-            "rct2.ride.vekst",           // RCT1_RIDE_TYPE_FLYING_ROLLER_COASTER
-            "rct2.ride.smono",           // RCT1_RIDE_TYPE_SUSPENDED_MONORAIL
+            "rct1aa.ride.virginia_reel_tubs",           // RCT1_RIDE_TYPE_VIRGINIA_REEL
+            "rct1aa.ride.splash_boats",          // RCT1_RIDE_TYPE_RIVER_RIDE
+            "rct1aa.ride.bicycles",           // RCT1_RIDE_TYPE_CYCLE_MONORAIL
+            "rct1aa.ride.lay_down_trains",           // RCT1_RIDE_TYPE_FLYING_ROLLER_COASTER
+            "rct1aa.ride.suspended_monorail_trains",           // RCT1_RIDE_TYPE_SUSPENDED_MONORAIL
             "",                          // RCT1_RIDE_TYPE_40
-            "rct2.ride.revcar",          // RCT1_RIDE_TYPE_WOODEN_REVERSER_ROLLER_COASTER
-            "rct2.ride.utcar",           // RCT1_RIDE_TYPE_HEARTLINE_TWISTER_ROLLER_COASTER
+            "rct1aa.ride.reverser_cars",          // RCT1_RIDE_TYPE_WOODEN_REVERSER_ROLLER_COASTER
+            "rct1aa.ride.heartline_twister_cars",           // RCT1_RIDE_TYPE_HEARTLINE_TWISTER_ROLLER_COASTER
             "rct2.ride.golf1",           // RCT1_RIDE_TYPE_MINIATURE_GOLF
             "",                          // RCT1_RIDE_TYPE_44
             "rct2.ride.gdrop1",          // RCT1_RIDE_TYPE_ROTO_DROP
-            "rct2.ride.fsauc",           // RCT1_RIDE_TYPE_FLYING_SAUCERS
+            "rct1aa.ride.flying_saucers",           // RCT1_RIDE_TYPE_FLYING_SAUCERS
             "rct2.ride.chbuild",         // RCT1_RIDE_TYPE_CROOKED_HOUSE
-            "rct2.ride.helicar",         // RCT1_RIDE_TYPE_CYCLE_RAILWAY
-            "rct2.ride.slct",            // RCT1_RIDE_TYPE_SUSPENDED_LOOPING_ROLLER_COASTER
-            "rct2.ride.cstboat",         // RCT1_RIDE_TYPE_WATER_COASTER
-            "rct2.ride.thcar",           // RCT1_RIDE_TYPE_AIR_POWERED_VERTICAL_COASTER
-            "rct2.ride.ivmc1",           // RCT1_RIDE_TYPE_INVERTED_WILD_MOUSE_COASTER
-            "rct2.ride.jski",            // RCT1_RIDE_TYPE_JET_SKIS
+            "rct1aa.ride.mini_helicopters",         // RCT1_RIDE_TYPE_CYCLE_RAILWAY
+            "rct1.ride.inverted_trains",            // RCT1_RIDE_TYPE_SUSPENDED_LOOPING_ROLLER_COASTER
+            "rct1ll.ride.coaster_boats",         // RCT1_RIDE_TYPE_WATER_COASTER
+            "rct1ll.ride.air_powered_trains",           // RCT1_RIDE_TYPE_AIR_POWERED_VERTICAL_COASTER
+            "rct1ll.ride.inverted_hairpin_cars",           // RCT1_RIDE_TYPE_INVERTED_WILD_MOUSE_COASTER
+            "rct1ll.ride.jet_skis",            // RCT1_RIDE_TYPE_JET_SKIS
             "rct2.ride.tshrt",           // RCT1_RIDE_TYPE_T_SHIRT_STALL
-            "rct2.ride.rftboat",         // RCT1_RIDE_TYPE_RAFT_RIDE
+            "rct1ll.ride.rafts",         // RCT1_RIDE_TYPE_RAFT_RIDE
             "rct2.ride.dough",           // RCT1_RIDE_TYPE_DOUGHNUT_SHOP
             "rct2.ride.enterp",          // RCT1_RIDE_TYPE_ENTERPRISE
             "rct2.ride.coffs",           // RCT1_RIDE_TYPE_COFFEE_SHOP
@@ -797,45 +797,45 @@ namespace RCT1
     {
         static constexpr const char * map[] =
         {
-            "rct2.ride.scht1",           // RCT1_VEHICLE_TYPE_STEEL_ROLLER_COASTER_TRAIN
-            "rct2.ride.scht1",           // RCT1_VEHICLE_TYPE_STEEL_ROLLER_COASTER_TRAIN_BACKWARDS
-            "rct2.ride.ptct1",           // RCT1_VEHICLE_TYPE_WOODEN_ROLLER_COASTER_TRAIN
-            "rct2.ride.slct",            // RCT1_VEHICLE_TYPE_INVERTED_COASTER_TRAIN (Not in RCT2)
-            "rct2.ride.arrsw1",          // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_CARS
+            "rct1.ride.steel_rc_trains",           // RCT1_VEHICLE_TYPE_STEEL_ROLLER_COASTER_TRAIN
+            "rct1.ride.steel_rc_trains_reversed",           // RCT1_VEHICLE_TYPE_STEEL_ROLLER_COASTER_TRAIN_BACKWARDS
+            "rct1.ride.wooden_rc_trains",           // RCT1_VEHICLE_TYPE_WOODEN_ROLLER_COASTER_TRAIN
+            "rct1.ride.inverted_trains",            // RCT1_VEHICLE_TYPE_INVERTED_COASTER_TRAIN (Not in RCT2)
+            "rct1.ride.suspended_swinging_cars",          // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_CARS
             "rct1.ride.ladybird_trains", // RCT1_VEHICLE_TYPE_LADYBIRD_CARS
-            "rct2.ride.togst",           // RCT1_VEHICLE_TYPE_STANDUP_ROLLER_COASTER_CARS
-            "rct2.ride.wmspin",          // RCT1_VEHICLE_TYPE_SPINNING_CARS
-            "rct2.ride.batfl",           // RCT1_VEHICLE_TYPE_SINGLE_PERSON_SWINGING_CHAIRS
+            "rct1.ride.stand_up_trains",           // RCT1_VEHICLE_TYPE_STANDUP_ROLLER_COASTER_CARS
+            "rct1.ride.spinning_cars",          // RCT1_VEHICLE_TYPE_SPINNING_CARS
+            "rct1.ride.single_person_swinging_cars",           // RCT1_VEHICLE_TYPE_SINGLE_PERSON_SWINGING_CHAIRS
             "rct2.ride.swans",           // RCT1_VEHICLE_TYPE_SWANS_PEDAL_BOATS
-            "rct2.ride.mono1",           // RCT1_VEHICLE_TYPE_LARGE_MONORAIL_TRAIN
+            "rct1.ride.streamlined_monorail_trains",           // RCT1_VEHICLE_TYPE_LARGE_MONORAIL_TRAIN
             "rct2.ride.cboat",           // RCT1_VEHICLE_TYPE_CANOES
             "rct2.ride.rboat",           // RCT1_VEHICLE_TYPE_ROWING_BOATS
-            "rct2.ride.nrl",             // RCT1_VEHICLE_TYPE_STEAM_TRAIN
-            "rct2.ride.wmouse",          // RCT1_VEHICLE_TYPE_WOODEN_MOUSE_CARS
-            "rct2.ride.bboat",           // RCT1_VEHICLE_TYPE_BUMPER_BOATS
-            "rct2.ride.ptct1",           // RCT1_VEHICLE_TYPE_WOODEN_ROLLER_COASTER_TRAIN_BACKWARDS
+            "rct1.ride.steam_trains",             // RCT1_VEHICLE_TYPE_STEAM_TRAIN
+            "rct1.ride.mouse_cars",          // RCT1_VEHICLE_TYPE_WOODEN_MOUSE_CARS
+            "rct1.ride.bumper_boats",           // RCT1_VEHICLE_TYPE_BUMPER_BOATS
+            "rct1.ride.wooden_rc_trains_reversed",           // RCT1_VEHICLE_TYPE_WOODEN_ROLLER_COASTER_TRAIN_BACKWARDS
             "rct1.ride.rocket_cars",     // RCT1_VEHICLE_TYPE_ROCKET_CARS
-            "rct2.ride.steep1",          // RCT1_VEHICLE_TYPE_HORSES // Steeplechase
-            "rct2.ride.spcar",           // RCT1_VEHICLE_TYPE_SPORTSCARS
-            "rct2.ride.skytr",           // RCT1_VEHICLE_TYPE_LYING_DOWN_SWINGING_CARS (Inverted single-rail)
-            "rct2.ride.wmmine",          // RCT1_VEHICLE_TYPE_WOODEN_MINE_CARS
-            "rct2.ride.arrsw2",          // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_AIRPLANE_CARS
-            "rct2.ride.mono2",           // RCT1_VEHICLE_TYPE_SMALL_MONORAIL_CARS
+            "rct1.ride.horses",          // RCT1_VEHICLE_TYPE_HORSES // Steeplechase
+            "rct1.ride.sports_cars",           // RCT1_VEHICLE_TYPE_SPORTSCARS
+            "rct1.ride.swinging_lay_down_cars",           // RCT1_VEHICLE_TYPE_LYING_DOWN_SWINGING_CARS (Inverted single-rail)
+            "rct1.ride.mine_cars",          // RCT1_VEHICLE_TYPE_WOODEN_MINE_CARS
+            "rct1.ride.suspended_swinging_aeroplane_cars",          // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_AIRPLANE_CARS
+            "rct1.ride.small_monorail_cars",           // RCT1_VEHICLE_TYPE_SMALL_MONORAIL_CARS
             "rct2.ride.trike",           // RCT1_VEHICLE_TYPE_WATER_TRICYCLES
             "rct2.ride.ssc1",            // RCT1_VEHICLE_TYPE_LAUNCHED_FREEFALL_CAR
-            "rct2.ride.bob1",            // RCT1_VEHICLE_TYPE_BOBSLEIGH_CARS
-            "rct2.ride.ding1",           // RCT1_VEHICLE_TYPE_DINGHIES
+            "rct1.ride.bobsleigh_trains",            // RCT1_VEHICLE_TYPE_BOBSLEIGH_CARS
+            "rct1.ride.dinghies",           // RCT1_VEHICLE_TYPE_DINGHIES
             "rct2.ride.obs1",            // RCT1_VEHICLE_TYPE_ROTATING_CABIN
-            "rct2.ride.amt1",            // RCT1_VEHICLE_TYPE_MINE_TRAIN
-            "rct2.ride.clift1",          // RCT1_VEHICLE_TYPE_CHAIRLIFT_CARS
-            "rct2.ride.arrt1",           // RCT1_VEHICLE_TYPE_CORKSCREW_ROLLER_COASTER_TRAIN
-            "rct2.ride.steep2",          // RCT1_VEHICLE_TYPE_MOTORBIKES
-            "rct2.ride.rcr",             // RCT1_VEHICLE_TYPE_RACING_CARS
-            "rct2.ride.truck1",          // RCT1_VEHICLE_TYPE_TRUCKS
-            "rct2.ride.kart1",           // RCT1_VEHICLE_TYPE_GO_KARTS
-            "rct2.ride.rapboat",         // RCT1_VEHICLE_TYPE_RAPIDS_BOATS
-            "rct2.ride.lfb1",            // RCT1_VEHICLE_TYPE_LOG_FLUME_BOATS
-            "rct2.ride.dodg1",           // RCT1_VEHICLE_TYPE_DODGEMS
+            "rct1.ride.mine_trains",            // RCT1_VEHICLE_TYPE_MINE_TRAIN
+            "rct1.ride.chairlift_cars",          // RCT1_VEHICLE_TYPE_CHAIRLIFT_CARS
+            "rct1.ride.corkscrew_trains",           // RCT1_VEHICLE_TYPE_CORKSCREW_ROLLER_COASTER_TRAIN
+            "rct1.ride.motorbikes",          // RCT1_VEHICLE_TYPE_MOTORBIKES
+            "rct1.ride.racing_cars",             // RCT1_VEHICLE_TYPE_RACING_CARS
+            "rct1.ride.pickup_trucks",          // RCT1_VEHICLE_TYPE_TRUCKS
+            "rct1.ride.go_karts",           // RCT1_VEHICLE_TYPE_GO_KARTS
+            "rct1.ride.river_rapids_boats",         // RCT1_VEHICLE_TYPE_RAPIDS_BOATS
+            "rct1.ride.logs",            // RCT1_VEHICLE_TYPE_LOG_FLUME_BOATS
+            "rct1.ride.dodgems",           // RCT1_VEHICLE_TYPE_DODGEMS
             "rct2.ride.swsh1",           // RCT1_VEHICLE_TYPE_SWINGING_SHIP
             "rct2.ride.swsh2",           // RCT1_VEHICLE_TYPE_SWINGING_INVERTER_SHIP
             "rct2.ride.mgr1",            // RCT1_VEHICLE_TYPE_MERRY_GO_ROUND
@@ -844,47 +844,47 @@ namespace RCT1
             "rct2.ride.c3d",             // RCT1_VEHICLE_TYPE_CINEMA_BUILDING
             "rct2.ride.topsp1",          // RCT1_VEHICLE_TYPE_TOPSPIN_CAR
             "rct2.ride.srings",          // RCT1_VEHICLE_TYPE_SPACE_RINGS
-            "rct2.ride.revf1",           // RCT1_VEHICLE_TYPE_REVERSE_FREEFALL_ROLLER_COASTER_CAR
-            "rct2.ride.bmvd",            // RCT1_VEHICLE_TYPE_VERTICAL_ROLLER_COASTER_CARS
-            "rct2.ride.ctcar",           // RCT1_VEHICLE_TYPE_CAT_CARS
+            "rct1.ride.reverse_freefall_car",           // RCT1_VEHICLE_TYPE_REVERSE_FREEFALL_ROLLER_COASTER_CAR
+            "rct1.ride.vertical_drop_trains",            // RCT1_VEHICLE_TYPE_VERTICAL_ROLLER_COASTER_CARS
+            "rct1.ride.cat_cars",           // RCT1_VEHICLE_TYPE_CAT_CARS
             "rct2.ride.twist1",          // RCT1_VEHICLE_TYPE_TWIST_ARMS_AND_CARS
             "rct2.ride.hhbuild",         // RCT1_VEHICLE_TYPE_HAUNTED_HOUSE_BUILDING
             "rct1.ride.log_trains",      // RCT1_VEHICLE_TYPE_LOG_CARS
             "rct2.ride.circus1",         // RCT1_VEHICLE_TYPE_CIRCUS_TENT
-            "rct2.ride.gtc",             // RCT1_VEHICLE_TYPE_GHOST_TRAIN_CARS
-            "rct2.ride.bmsd",            // RCT1_VEHICLE_TYPE_STEEL_TWISTER_ROLLER_COASTER_TRAIN
-            "rct2.ride.mft",             // RCT1_VEHICLE_TYPE_WOODEN_TWISTER_ROLLER_COASTER_TRAIN
-            "rct2.ride.sfric1",          // RCT1_VEHICLE_TYPE_WOODEN_SIDE_FRICTION_CARS
-            "rct2.ride.vcr",             // RCT1_VEHICLE_TYPE_VINTAGE_CARS
-            "rct2.ride.nrl2",            // RCT1_VEHICLE_TYPE_STEAM_TRAIN_COVERED_CARS
-            "rct2.ride.bmsu",            // RCT1_VEHICLE_TYPE_STAND_UP_STEEL_TWISTER_ROLLER_COASTER_TRAIN
-            "rct2.ride.bmfl",            // RCT1_VEHICLE_TYPE_FLOORLESS_STEEL_TWISTER_ROLLER_COASTER_TRAIN
-            "rct2.ride.smc1",            // RCT1_VEHICLE_TYPE_STEEL_MOUSE_CARS
-            "rct2.ride.clift2",          // RCT1_VEHICLE_TYPE_CHAIRLIFT_CARS_ALTERNATIVE
-            "rct2.ride.smono",           // RCT1_VEHICLE_TYPE_SUSPENDED_MONORAIL_TRAIN
-            "rct2.ride.helicar",         // RCT1_VEHICLE_TYPE_HELICOPTER_CARS
-            "rct2.ride.vreel",           // RCT1_VEHICLE_TYPE_VIRGINIA_REEL_TUBS
-            "rct2.ride.revcar",          // RCT1_VEHICLE_TYPE_REVERSER_CARS
+            "rct1aa.ride.ghost_train_cars",             // RCT1_VEHICLE_TYPE_GHOST_TRAIN_CARS
+            "rct1aa.ride.twister_trains",            // RCT1_VEHICLE_TYPE_STEEL_TWISTER_ROLLER_COASTER_TRAIN
+            "rct1aa.ride.wooden_articulated_trains",             // RCT1_VEHICLE_TYPE_WOODEN_TWISTER_ROLLER_COASTER_TRAIN
+            "rct1aa.ride.side_friction_cars",          // RCT1_VEHICLE_TYPE_WOODEN_SIDE_FRICTION_CARS
+            "rct1aa.ride.vintage_cars",             // RCT1_VEHICLE_TYPE_VINTAGE_CARS
+            "rct1aa.ride.steam_trains_covered",            // RCT1_VEHICLE_TYPE_STEAM_TRAIN_COVERED_CARS
+            "rct1aa.ride.stand_up_twister_trains",            // RCT1_VEHICLE_TYPE_STAND_UP_STEEL_TWISTER_ROLLER_COASTER_TRAIN
+            "rct1aa.ride.floorless_twister_trains",            // RCT1_VEHICLE_TYPE_FLOORLESS_STEEL_TWISTER_ROLLER_COASTER_TRAIN
+            "rct1aa.ride.steel_wild_mouse_cars",            // RCT1_VEHICLE_TYPE_STEEL_MOUSE_CARS
+            "rct1aa.ride.ski_lift_cars",          // RCT1_VEHICLE_TYPE_CHAIRLIFT_CARS_ALTERNATIVE
+            "rct1aa.ride.suspended_monorail_trains",           // RCT1_VEHICLE_TYPE_SUSPENDED_MONORAIL_TRAIN
+            "rct1aa.ride.mini_helicopters",         // RCT1_VEHICLE_TYPE_HELICOPTER_CARS
+            "rct1aa.ride.virginia_reel_tubs",           // RCT1_VEHICLE_TYPE_VIRGINIA_REEL_TUBS
+            "rct1aa.ride.reverser_cars",          // RCT1_VEHICLE_TYPE_REVERSER_CARS
             "rct2.ride.golf1",           // RCT1_VEHICLE_TYPE_GOLFERS
-            "rct2.ride.spboat",          // RCT1_VEHICLE_TYPE_RIVER_RIDE_BOATS
-            "rct2.ride.vekst",           // RCT1_VEHICLE_TYPE_FLYING_ROLLER_COASTER_TRAIN
-            "rct2.ride.bmrb",            // RCT1_VEHICLE_TYPE_NON_LOOPING_STEEL_TWISTER_ROLLER_COASTER_TRAIN
-            "rct2.ride.utcar",           // RCT1_VEHICLE_TYPE_HEARTLINE_TWISTER_CARS
-            "rct2.ride.utcarr",          // RCT1_VEHICLE_TYPE_HEARTLINE_TWISTER_CARS_REVERSED
+            "rct1aa.ride.splash_boats",          // RCT1_VEHICLE_TYPE_RIVER_RIDE_BOATS
+            "rct1aa.ride.lay_down_trains",           // RCT1_VEHICLE_TYPE_FLYING_ROLLER_COASTER_TRAIN
+            "rct1aa.ride.hyper_twister_trains",            // RCT1_VEHICLE_TYPE_NON_LOOPING_STEEL_TWISTER_ROLLER_COASTER_TRAIN
+            "rct1aa.ride.heartline_twister_cars",           // RCT1_VEHICLE_TYPE_HEARTLINE_TWISTER_CARS
+            "rct1aa.ride.heartline_twister_cars_reversed",          // RCT1_VEHICLE_TYPE_HEARTLINE_TWISTER_CARS_REVERSED
             "",                          // RCT1_VEHICLE_TYPE_RESERVED
             "rct2.ride.gdrop1",          // RCT1_VEHICLE_TYPE_ROTODROP_CAR
-            "rct2.ride.fsauc",           // RCT1_VEHICLE_TYPE_FLYING_SAUCERS
+            "rct1aa.ride.flying_saucers",           // RCT1_VEHICLE_TYPE_FLYING_SAUCERS
             "rct2.ride.chbuild",         // RCT1_VEHICLE_TYPE_CROOKED_HOUSE_BUILDING
-            "rct2.ride.monbk",           // RCT1_VEHICLE_TYPE_BICYCLES
-            "rct2.ride.arrt2",           // RCT1_VEHICLE_TYPE_HYPERCOASTER_TRAIN
-            "rct2.ride.nemt",            // RCT1_VEHICLE_TYPE_4_ACROSS_INVERTED_COASTER_TRAIN
-            "rct2.ride.cstboat",         // RCT1_VEHICLE_TYPE_WATER_COASTER_BOATS
-            "rct2.ride.slcfo",           // RCT1_VEHICLE_TYPE_FACEOFF_CARS
-            "rct2.ride.jski",            // RCT1_VEHICLE_TYPE_JET_SKIS
-            "rct2.ride.rftboat",         // RCT1_VEHICLE_TYPE_RAFT_BOATS
-            "rct2.ride.aml1",            // RCT1_VEHICLE_TYPE_AMERICAN_STYLE_STEAM_TRAIN
-            "rct2.ride.thcar",           // RCT1_VEHICLE_TYPE_AIR_POWERED_COASTER_TRAIN
-            "rct2.ride.ivmc1",           // RCT1_VEHICLE_TYPE_SUSPENDED_WILD_MOUSE_CARS (Inverted Hairpin in RCT2)
+            "rct1aa.ride.bicycles",           // RCT1_VEHICLE_TYPE_BICYCLES
+            "rct1ll.ride.hypercoaster_trains",           // RCT1_VEHICLE_TYPE_HYPERCOASTER_TRAIN
+            "rct1ll.ride.4_across_inverted_trains",            // RCT1_VEHICLE_TYPE_4_ACROSS_INVERTED_COASTER_TRAIN
+            "rct1ll.ride.coaster_boats",         // RCT1_VEHICLE_TYPE_WATER_COASTER_BOATS
+            "rct1ll.ride.face_off_cars",           // RCT1_VEHICLE_TYPE_FACEOFF_CARS
+            "rct1ll.ride.jet_skis",            // RCT1_VEHICLE_TYPE_JET_SKIS
+            "rct1ll.ride.rafts",         // RCT1_VEHICLE_TYPE_RAFT_BOATS
+            "rct1ll.ride.steam_trains_american",            // RCT1_VEHICLE_TYPE_AMERICAN_STYLE_STEAM_TRAIN
+            "rct1ll.ride.air_powered_trains",           // RCT1_VEHICLE_TYPE_AIR_POWERED_COASTER_TRAIN
+            "rct1ll.ride.inverted_hairpin_cars",           // RCT1_VEHICLE_TYPE_SUSPENDED_WILD_MOUSE_CARS (Inverted Hairpin in RCT2)
             "rct2.ride.enterp",          // RCT1_VEHICLE_TYPE_ENTERPRISE_WHEEL
         };
 
@@ -1207,8 +1207,8 @@ namespace RCT1
             "rct2.scenery_wall.wswg",        // RCT1_WALL_TYPE_WHITE_RAILING_WITH_GATE
             "rct2.scenery_wall.wmw",         // RCT1_WALL_TYPE_MARTIAN
             "rct2.scenery_wall.wallgl16",    // RCT1_WALL_TYPE_GLASS_SMOOTH
-            "rct2.scenery_wall.wfw1",        // RCT1_WALL_TYPE_WOODEN_PANEL_FENCE
-            "rct2.scenery_wall.wfwg",        // RCT1_WALL_TYPE_WOODEN_PANEL_FENCE_WITH_GATE
+            "rct1.scenery_wall.wooden_fence_brown",        // RCT1_WALL_TYPE_WOODEN_PANEL_FENCE
+            "rct1.scenery_wall.wooden_fence_brown_gate",        // RCT1_WALL_TYPE_WOODEN_PANEL_FENCE_WITH_GATE
             "rct2.scenery_wall.wpw1",        // RCT1_WALL_TYPE_WOODEN_POST_FENCE
             "rct2.scenery_wall.wpw2",        // RCT1_WALL_TYPE_RED_WOODEN_POST_FENCE
             "rct2.scenery_wall.wpf",         // RCT1_WALL_TYPE_BARBED_WIRE
@@ -1217,11 +1217,11 @@ namespace RCT1
             "rct2.scenery_wall.wmww",        // RCT1_WALL_TYPE_PRIMITIVE_SHORT_WOOD_FENCE
             "rct2.scenery_wall.wsw1",        // RCT1_WALL_TYPE_IRON_RAILING
             "rct2.scenery_wall.wsw2",        // RCT1_WALL_TYPE_IRON_RAILING_WITH_GATE
-            "rct2.scenery_wall.wgw2",        // RCT1_WALL_TYPE_GLASS_PANELS
+            "rct1aa.scenery_wall.glass_wall",        // RCT1_WALL_TYPE_GLASS_PANELS
             "rct2.scenery_wall.wbw",         // RCT1_WALL_TYPE_BONE_FENCE
             "rct2.scenery_wall.wbr1",        // RCT1_WALL_TYPE_BRICK
             "rct2.scenery_wall.wbrg",        // RCT1_WALL_TYPE_BRICK_WITH_GATE
-            "rct2.scenery_wall.wfw1",        // RCT1_WALL_TYPE_WHITE_WOODEN_PANEL_FENCE
+            "rct1.scenery_wall.wooden_fence_white",        // RCT1_WALL_TYPE_WHITE_WOODEN_PANEL_FENCE
             "rct1.scenery_wall.wooden_fence_red", // RCT1_WALL_TYPE_RED_WOODEN_PANEL_FENCE
             "rct2.scenery_wall.wbr2",        // RCT1_WALL_TYPE_STONE
             "rct2.scenery_wall.wbr3",        // RCT1_WALL_TYPE_STONE_WITH_GATE
@@ -1245,7 +1245,7 @@ namespace RCT1
             "rct2.scenery_wall.wc14",        // RCT1_WALL_TYPE_CREEPY
             "rct2.scenery_wall.wc15",        // RCT1_WALL_TYPE_CREEPY_GATE
             "rct2.scenery_wall.wc16",        // RCT1_WALL_TYPE_BARBED_WIRE_WITH_SNOW
-            "rct2.scenery_wall.wc17",        // RCT1_WALL_TYPE_WOODEN_PANEL_FENCE_WITH_SNOW
+            "rct1ll.scenery_wall.wooden_fence_brown_snow",        // RCT1_WALL_TYPE_WOODEN_PANEL_FENCE_WITH_SNOW
             "rct2.scenery_wall.wc18",        // RCT1_WALL_TYPE_WOODEN_POST_FENCE_WITH_SNOW
         };
         if (wallType < std::size(map))
@@ -1371,7 +1371,7 @@ namespace RCT1
               "rct2.scenery_small.ts0", "rct2.scenery_small.ts1", "rct2.scenery_small.ts2", "rct2.scenery_small.ts3", "rct2.scenery_small.ts4", "rct2.scenery_small.ts5", "rct2.scenery_small.ts6", "rct2.scenery_small.tef", "rct2.scenery_small.tal", "rct2.scenery_small.tsq", "rct2.scenery_small.tht", "rct2.scenery_small.tcb", "rct2.scenery_small.tdm", "rct2.scenery_small.tsd", "rct2.scenery_small.torn1", "rct2.scenery_small.torn2", "rct2.scenery_small.tgs", "rct2.scenery_small.tus", "rct2.scenery_small.tbc", "rct2.scenery_small.tsc", "rct2.scenery_small.twf", "rct2.scenery_small.tsh0", "rct2.scenery_small.tsh1", "rct2.scenery_small.tsh2", "rct2.scenery_small.tsh3", "rct2.scenery_small.tsh4", "rct2.scenery_small.tsh5", "rct2.scenery_small.tdf", "rct2.scenery_small.tsh", "rct2.scenery_small.thrs", "rct2.scenery_small.tstd", "rct2.scenery_small.tbr", "rct2.scenery_small.ttf", "rct2.scenery_wall.whg", "rct2.scenery_wall.whgg", "rct2.scenery_wall.wch", "rct2.scenery_wall.wchg",
               "rct2.scenery_small.tg1", "rct2.scenery_small.tg2", "rct2.scenery_small.tg3", "rct2.scenery_small.tg4", "rct2.scenery_small.tg5", "rct2.scenery_small.tg6", "rct2.scenery_small.tg7", "rct2.scenery_small.tg8", "rct2.scenery_small.tg9", "rct2.scenery_small.tg10", "rct2.scenery_small.tg11", "rct2.scenery_small.tg12", "rct2.scenery_small.tg13", "rct2.scenery_small.tg14", "rct2.scenery_small.tg15", "rct2.scenery_small.tg16", "rct2.scenery_small.tg17", "rct2.scenery_small.tg18", "rct2.scenery_small.tg19", "rct2.scenery_small.tg20", "rct2.scenery_small.tg21",
               "rct2.scenery_wall.wbr1a", "rct2.scenery_wall.wbr2a", "rct2.scenery_wall.wallbb34", "rct2.scenery_wall.walltn32", "rct2.scenery_small.tntroof1", "rct2.scenery_wall.wallbb33", "rct2.scenery_wall.wallbb32", "rct2.scenery_wall.wallbb16", "rct2.scenery_wall.wallbb8", "rct2.scenery_small.roof5", "rct2.scenery_small.roof7", "rct2.scenery_wall.wallrs32", "rct2.scenery_wall.wallrs16", "rct2.scenery_wall.wallrs8", "rct2.scenery_wall.wallbr32", "rct2.scenery_wall.wallbr16", "rct2.scenery_wall.wallbr8", "rct2.scenery_wall.wallbrdr", "rct2.scenery_wall.wallbrwn", "rct2.scenery_small.brbase", "rct2.scenery_small.roof1", "rct2.scenery_small.roof2", "rct2.scenery_small.roof3", "rct2.scenery_small.roof4", "rct2.scenery_wall.wallcb32", "rct2.scenery_wall.wallcb16", "rct2.scenery_wall.wallcb8", "rct2.scenery_wall.wallcbdr", "rct2.scenery_wall.wallcbwn", "rct2.scenery_small.brbase2", "rct2.scenery_small.cwbcrv33", "rct2.scenery_small.cwbcrv32", "rct2.scenery_small.brcrrf1", "rct2.scenery_small.roof6", "rct2.scenery_small.roof8", "rct2.scenery_wall.wallcf32", "rct2.scenery_wall.wallcf16", "rct2.scenery_wall.wallcf8", "rct2.scenery_wall.wallcfdr", "rct2.scenery_wall.wallcfwn", "rct2.scenery_wall.wallcfar", "rct2.scenery_small.brbase3", "rct2.scenery_small.cwfcrv33", "rct2.scenery_small.cwfcrv32", "rct2.scenery_small.brcrrf2", "rct2.scenery_small.roof9", "rct2.scenery_small.roof11", "rct2.scenery_small.roof10", "rct2.scenery_small.roof12", "rct2.scenery_small.corroof2", "rct2.scenery_wall.wallco16", "rct2.scenery_small.corroof", "rct2.scenery_wall.walllt32", "rct2.scenery_wall.wallsk16", "rct2.scenery_wall.wallsk32", "rct2.scenery_small.sktdw2", "rct2.scenery_small.sktdw", "rct2.scenery_small.sktbase", "rct2.scenery_small.sktbaset", "rct2.scenery_small.suppw2", "rct2.scenery_small.suppw1", "rct2.scenery_small.suppw3", "rct2.scenery_small.suppleg1", "rct2.scenery_small.suppleg2", "rct2.scenery_small.sumrf", "rct2.scenery_wall.wallrh32",
-              "rct2.scenery_wall.wmf", "rct2.scenery_wall.wmfg", "rct2.scenery_wall.wsw", "rct2.scenery_wall.wswg", "rct2.scenery_wall.wfw1", "rct1.scenery_wall.wooden_fence_red", "rct2.scenery_wall.wfwg", "rct2.scenery_wall.wpf", "rct2.scenery_wall.wpfg", "rct2.scenery_wall.wsw1", "rct2.scenery_wall.wsw2", "rct2.scenery_wall.wbr1", "rct2.scenery_wall.wbrg", "rct2.scenery_wall.wbr2", "rct2.scenery_wall.wbr3", "rct2.scenery_wall.wallmm16", "rct2.scenery_wall.wallmm17",
+              "rct2.scenery_wall.wmf", "rct2.scenery_wall.wmfg", "rct2.scenery_wall.wsw", "rct2.scenery_wall.wswg", "rct2.scenery_wall.wfw1", "rct1.scenery_wall.wooden_fence_brown", "rct1.scenery_wall.wooden_fence_brown_gate", "rct1.scenery_wall.wooden_fence_white", "rct1.scenery_wall.wooden_fence_red", "rct2.scenery_wall.wfwg", "rct2.scenery_wall.wpf", "rct2.scenery_wall.wpfg", "rct2.scenery_wall.wsw1", "rct2.scenery_wall.wsw2", "rct2.scenery_wall.wbr1", "rct2.scenery_wall.wbrg", "rct2.scenery_wall.wbr2", "rct2.scenery_wall.wbr3", "rct2.scenery_wall.wallmm16", "rct2.scenery_wall.wallmm17",
               "rct2.footpath_item.lamp1", "rct2.footpath_item.lamp2", "rct2.footpath_item.litter1", "rct2.footpath_item.bench1", "rct2.footpath_item.qtv1", "rct2.footpath_banner.bn1", "rct2.scenery_wall.wallpost", "rct2.scenery_wall.wallsign", "rct2.scenery_large.ssig1", "rct2.scenery_large.ssig2", "rct2.scenery_large.ssig3", "rct2.scenery_large.ssig4" },
             // RCT1_SCENERY_THEME_MINE
             { "rct2.scenery_large.smh1", "rct2.scenery_large.smh2", "rct2.scenery_large.smn1", "rct2.scenery_small.tbw", "rct2.scenery_small.tbr1", "rct2.scenery_small.tbr2", "rct2.scenery_small.tml", "rct2.scenery_small.tmw", "rct2.scenery_small.tbr3", "rct2.scenery_small.tbr4", "rct2.scenery_small.tmj", "rct2.footpath_banner.bn5", "rct2.scenery_wall.wallwd8", "rct2.scenery_wall.wallwd16", "rct2.scenery_wall.wallwd32", "rct2.scenery_wall.wallwd33", "rct2.scenery_wall.wallmn32", "rct2.scenery_small.wdbase", "rct2.scenery_small.minroof1", "rct2.scenery_small.roof13", "rct2.footpath_item.littermn" },
@@ -1392,11 +1392,11 @@ namespace RCT1
             // RCT1_SCENERY_THEME_JUNGLE
             { "rct2.scenery_small.tjt1", "rct2.scenery_small.tjt2", "rct2.scenery_small.tjb1", "rct2.scenery_small.tjt3", "rct2.scenery_small.tjt4", "rct2.scenery_small.tjp1", "rct2.scenery_small.tjb2", "rct2.scenery_small.tjt5", "rct2.scenery_small.tjb3", "rct2.scenery_small.tjb4", "rct2.scenery_small.tjt6", "rct2.scenery_small.tjp2", "rct2.scenery_small.tjf", "rct2.scenery_wall.wpw1", "rct2.scenery_wall.wpw2", "rct2.scenery_wall.wjf", "rct2.footpath_banner.bn2", "rct2.scenery_wall.walljn32", "rct2.scenery_small.jngroof1", "rct2.scenery_small.roof14", "rct2.footpath_item.benchlog" },
             // RCT1_SCENERY_THEME_ABSTRACT
-            { "rct2.scenery_small.tge1", "rct2.scenery_small.tge2", "rct2.scenery_small.tge3", "rct2.scenery_small.tge4", "rct2.scenery_small.tge5", "rct2.scenery_small.tgc1", "rct2.scenery_small.tgc2", "rct2.scenery_wall.wallgl8", "rct2.scenery_wall.wallgl16", "rct2.scenery_wall.wallgl32", "rct2.scenery_small.georoof1", "rct2.scenery_wall.wgw2", "rct2.scenery_small.georoof2" },
+            { "rct2.scenery_small.tge1", "rct2.scenery_small.tge2", "rct2.scenery_small.tge3", "rct2.scenery_small.tge4", "rct2.scenery_small.tge5", "rct2.scenery_small.tgc1", "rct2.scenery_small.tgc2", "rct2.scenery_wall.wallgl8", "rct2.scenery_wall.wallgl16", "rct2.scenery_wall.wallgl32", "rct1aa.scenery_wall.glass_wall", "rct2.scenery_small.georoof1", "rct2.scenery_wall.wgw2", "rct2.scenery_small.georoof2" },
             // RCT1_SCENERY_THEME_GARDEN_CLOCK (Single researchable scenery item)
             { "rct2.scenery_small.tck" },
             // RCT1_SCENERY_THEME_SNOW_ICE
-            { "rct2.scenery_large.sip", "rct2.scenery_small.tsm", "rct2.scenery_small.tig", "rct2.scenery_small.tsf1", "rct2.scenery_small.tsf2", "rct2.scenery_small.tsf3", "rct2.scenery_small.tsnc", "rct2.scenery_small.tsnb", "rct2.scenery_wall.wc16", "rct2.scenery_wall.wc17", "rct2.scenery_wall.wc18", "rct2.footpath_item.jumpsnw1", "rct2.scenery_small.tcfs", "rct2.scenery_small.trfs", "rct2.scenery_small.trf3", "rct2.scenery_small.tnss", "rct2.footpath_banner.bn8", "rct2.scenery_wall.wallig16", "rct2.scenery_wall.wallig24", "rct2.scenery_small.igroof" },
+            { "rct2.scenery_large.sip", "rct2.scenery_small.tsm", "rct2.scenery_small.tig", "rct2.scenery_small.tsf1", "rct2.scenery_small.tsf2", "rct2.scenery_small.tsf3", "rct2.scenery_small.tsnc", "rct2.scenery_small.tsnb", "rct2.scenery_wall.wc16", "rct2.scenery_wall.wc17", "rct2.scenery_wall.wc18", "rct1ll.scenery_wall.wooden_fence_brown_snow", "rct2.footpath_item.jumpsnw1", "rct2.scenery_small.tcfs", "rct2.scenery_small.trfs", "rct2.scenery_small.trf3", "rct2.scenery_small.tnss", "rct2.footpath_banner.bn8", "rct2.scenery_wall.wallig16", "rct2.scenery_wall.wallig24", "rct2.scenery_small.igroof" },
             // RCT1_SCENERY_THEME_MEDIEVAL
             { "rct2.scenery_small.tct1", "rct2.scenery_large.stb1", "rct2.scenery_large.stb2", "rct2.scenery_wall.wc1", "rct2.scenery_wall.wc4", "rct2.scenery_wall.wc5", "rct2.scenery_wall.wc6", "rct2.scenery_wall.wc7", "rct2.scenery_wall.wc8", "rct2.scenery_wall.wallcz32", "rct2.scenery_wall.wallcy32", "rct2.scenery_small.tct2", "rct2.scenery_large.stg1", "rct2.scenery_large.stg2", "rct2.scenery_wall.wc2", "rct2.scenery_wall.wc9", "rct2.scenery_wall.wc10", "rct2.scenery_wall.wc11", "rct2.scenery_wall.wc12", "rct2.scenery_wall.wc13", "rct2.scenery_wall.wallcw32", "rct2.scenery_wall.wallcx32", "rct2.scenery_small.tcn", "rct2.scenery_small.ttg", "rct2.scenery_large.sct", "rct2.scenery_large.soh1", "rct2.scenery_large.soh2", "rct2.scenery_large.soh3", "rct2.scenery_wall.wpw3", "rct2.scenery_wall.wallcfpc", "rct2.scenery_wall.wallcbpc" },
             // RCT1_SCENERY_THEME_SPACE
