@@ -6,9 +6,15 @@
   </a>
 </p>
 
-<h1 align="center">OpenRCT2</h1>
+<h1 align="center">OpenRCT2 - RCT1 Vehicles Project Build</h1>
 
-<h3 align="center">An open-source re-implementation of RollerCoaster Tycoon 2, a construction and management simulation video game that simulates amusement park management.</h3>
+<h3 align="center">This is a special build of OpenRCT2 used for the RCT1 vehicles project, it has legacy importing for the project's old object IDs, importing the project's RCT1 objects when loading S4 files, and RCT1 support rendering.</h3>
+
+
+<h3 align="center">In order for S4 importing to work you will need all of the objects from both the main repo and an experimental repo containing additional objects.</h1>
+<h3 align="center">https://github.com/spacek531/RCT1Vehicles</h1>
+<h3 align="center">https://github.com/ZeeMajora/experimental-rct1-objects</h1>
+
 
 ---
 
