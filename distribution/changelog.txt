@@ -6,14 +6,18 @@
 - Feature: [#16662] Show a warning message when g2.dat is mismatched.
 - Feature: [#17107] Ride operating settings can be set via text input.
 - Feature: [#17638] Added Zero G rolls, medium loops and large corkscrews to the Hybrid and Single-Rail coasters.
+- Feature: [#17900] Add “Classic Wooden Coaster” with shallow banked turns.
 - Feature: [objects#198] Add additional pirate roofs.
 - Improved: [#15358] Park and scenario names can now contain up to 128 characters.
 - Improved: [#16840] Add support for rectangular heightmaps.
 - Improved: [#17575] You can now search for Authors in Object Selection.
+- Change: [#9104] Calculate maze support costs.
 - Change: [#17319] Giant screenshots are now cropped to the horizontal view-clipping selection.
 - Change: [#17499] Update error text when using vehicle incompatible with TD6 and add error when using incompatible track elements.
 - Change: [#17655] Lower default price for the Crooked House.
 - Fix: [#7466] Coaster track not drawn at tunnel exit.
+- Fix: [#14337] Guest blocking ride entrance after ride price changed to be unaffordable.
+- Fix: [#15328] Wooden Roller Coaster incorrectly draws a railing on the first station piece (original bug).
 - Fix: [#16392] Scenery on sloped surface is placed at wrong height.
 - Fix: [#16476] The game sometimes crashes when demolishing a maze.
 - Fix: [#17312] (Flying) Inline Twist appearing under the surface when placed on ground level.
