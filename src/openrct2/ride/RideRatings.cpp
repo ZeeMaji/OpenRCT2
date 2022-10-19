@@ -987,21 +987,13 @@ static void ride_ratings_apply_adjustments(Ride* ride, RatingTuple* ratings)
         }
     }
 #else
+    // No air time bonus hack (Emulates RCT1 behavior)
     if (ride->GetRideTypeDescriptor().HasFlag(RIDE_TYPE_FLAG_HAS_AIR_TIME))
     {
-        int32_t excitementModifier;
-        if (rideEntry->flags & RIDE_ENTRY_FLAG_LIMIT_AIRTIME_BONUS)
+        uint16_t totalAirTime = ride->total_air_time;
         {
-            // Limit airtime bonus for heartline twister coaster (see issues #2031 and #2064)
-            excitementModifier = std::min<uint16_t>(ride->total_air_time, 96) / 8;
+                totalAirTime -= 0;
         }
-        else
-        {
-            excitementModifier = ride->total_air_time / 8;
-        }
-        int32_t nauseaModifier = ride->total_air_time / 16;
-
-        ride_ratings_add(ratings, excitementModifier, 0, nauseaModifier);
     }
 #endif
 }
