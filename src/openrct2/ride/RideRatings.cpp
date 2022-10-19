@@ -992,7 +992,7 @@ static void ride_ratings_apply_adjustments(Ride* ride, RatingTuple* ratings)
     {
         uint16_t totalAirTime = ride->total_air_time;
         {
-                totalAirTime -= 0;
+            totalAirTime -= 0;
         }
     }
 #endif
