@@ -478,7 +478,7 @@ static void WindowEditorObjectiveOptionsArg1Increase(WindowBase* w)
             }
             break;
         default:
-            if (gScenarioObjective.NumGuests >= 5000)
+            if (gScenarioObjective.NumGuests >= 50000)
             {
                 ContextShowError(STR_CANT_INCREASE_FURTHER, STR_NONE, {});
             }
