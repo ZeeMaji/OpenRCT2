@@ -609,8 +609,8 @@ uint32_t Park::CalculateGuestGenerationProbability() const
         }
     }
 
-    // Reduces chance for any more than 7000 guests
-    if (numGuests > 7000)
+    // Reduces chance for any more than 50000 guests
+    if (numGuests > 50000)
     {
         probability /= 4;
     }
