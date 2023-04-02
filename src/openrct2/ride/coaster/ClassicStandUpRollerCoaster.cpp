@@ -244,31 +244,27 @@ static void ClassicStandUpRCTrackBankedLeftQuarterTurn5(
             switch (direction)
             {
                 case 0:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_1_4),
-                        { 0, 0, height }, { { 0, 6, height }, { 32, 20, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_1_4),
+                        { 0, 0 + 6, height }, { { 0, 6, height }, { 32, 20, 3 } });
                     //                    PaintAddImageAsParentRotated(
                     //                        session, direction, session.TrackColours[SCHEME_TRACK].WithIndex(25475), { 0, 0,
                     //                        height }, { { 0, 27, height }, { 32, 1, 26 } });
                     break;
                 case 1:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_2_4),
-                        { 0, 0, height }, { { 0, 27, height }, { 32, 1, 26 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_2_4),
+                        { 0 + 6, 0, height }, { { 27, 0, height }, { 1, 32, 26 } });
                     break;
                 case 2:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_3_4),
-                        { 0, 0, height }, { { 0, 6, height }, { 32, 20, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_3_4),
+                        { 0, 0 + 6, height }, { { 0, 6, height }, { 32, 20, 3 } });
                     break;
                 case 3:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_0_4),
-                        { 0, 0, height }, { { 0, 6, height }, { 32, 20, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_0_4),
+                        { 0 + 6, 0, height }, { { 6, 0, height }, { 20, 32, 3 } });
                     break;
             }
             MetalASupportsPaintSetup(session, METAL_SUPPORTS_TUBES, 4, 0, height, session.TrackColours[SCHEME_SUPPORTS]);
@@ -287,28 +283,24 @@ static void ClassicStandUpRCTrackBankedLeftQuarterTurn5(
             switch (direction)
             {
                 case 0:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_1_3),
-                        { 0, 0, height }, { { 0, 0, height }, { 32, 16, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_1_3),
+                        { 0, 0 + 16, height }, { { 0, 0, height }, { 32, 16, 3 } });
                     break;
                 case 1:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_2_3),
-                        { 0, 0, height }, { { 0, 0, height + 27 }, { 32, 16, 1 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_2_3),
+                        { 0, 0, height }, { { 0, 0, height + 27 }, { 16, 32, 1 } });
                     break;
                 case 2:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_3_3),
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_3_3),
                         { 0, 0, height }, { { 0, 16, height }, { 32, 16, 3 } });
                     break;
                 case 3:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_0_3),
-                        { 0, 0, height }, { { 0, 16, height }, { 32, 16, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_0_3),
+                        { 0, 0, height }, { { 16, 0, height }, { 16, 32, 3 } });
                     break;
             }
             PaintUtilSetSegmentSupportHeight(
@@ -390,31 +382,27 @@ static void ClassicStandUpRCTrackBankedLeftQuarterTurn5(
             switch (direction)
             {
                 case 0:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_1_0),
-                        { 0, 0, height }, { { 6, 0, height }, { 20, 32, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_1_0),
+                        { 0 + 6, 0, height }, { { 6, 0, height }, { 20, 32, 3 } });
                     break;
                 case 1:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_2_0),
-                        { 0, 0, height }, { { 27, 0, height }, { 1, 32, 26 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_2_0),
+                        { 0, 0 + 6, height }, { { 0, 27, height }, { 32, 1, 26 } });
                     break;
                 case 2:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_3_0),
-                        { 0, 0, height }, { { 6, 0, height }, { 20, 32, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_3_0),
+                        { 0 + 6, 0, height }, { { 6, 0, height }, { 20, 32, 3 } });
                     //                    PaintAddImageAsParentRotated(
                     //                        session, direction, session.TrackColours[SCHEME_TRACK].WithIndex(25476), { 0, 0,
                     //                        height }, { { 27, 0, height }, { 1, 32, 26 } });
                     break;
                 case 3:
-                    PaintAddImageAsParentRotated(
-                        session, direction,
-                        session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_0_0),
-                        { 0, 0, height }, { { 6, 0, height }, { 20, 32, 3 } });
+                    PaintAddImageAsParent(
+                        session, session.TrackColours[SCHEME_TRACK].WithIndex(CLASSIC_STANDUP_RC_RIGHT_TURN_5_TILES_BANKED_0_0),
+                        { 0, 0 + 6, height }, { { 0, 6, height }, { 32, 20, 3 } });
                     break;
             }
             MetalASupportsPaintSetup(session, METAL_SUPPORTS_TUBES, 4, 0, height, session.TrackColours[SCHEME_SUPPORTS]);
