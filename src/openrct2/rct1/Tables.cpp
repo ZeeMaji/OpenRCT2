@@ -701,7 +701,7 @@ namespace RCT1
         static constexpr const char * map[] =
         {
             "rct1.ride.wooden_rc_trains",            // RCT1_RIDE_TYPE_WOODEN_ROLLER_COASTER
-            "rct1.ride.togst",                       // RCT1_RIDE_TYPE_STAND_UP_STEEL_ROLLER_COASTER
+            "rct1.ride.stand_up_trains",             // RCT1_RIDE_TYPE_STAND_UP_STEEL_ROLLER_COASTER
             "rct2.ride.arrsw1",                      // RCT1_RIDE_TYPE_SUSPENDED_ROLLER_COASTER
             "rct2.ride.nemt",                        // RCT1_RIDE_TYPE_INVERTED_ROLLER_COASTER
             "rct1.ride.ladybird_trains",             // RCT1_RIDE_TYPE_STEEL_MINI_ROLLER_COASTER
@@ -803,7 +803,7 @@ namespace RCT1
             "rct1.ride.inverted_trains",             // RCT1_VEHICLE_TYPE_INVERTED_COASTER_TRAIN (Not in RCT2)
             "rct2.ride.arrsw1",                      // RCT1_VEHICLE_TYPE_SUSPENDED_SWINGING_CARS
             "rct1.ride.ladybird_trains",             // RCT1_VEHICLE_TYPE_LADYBIRD_CARS
-            "rct1.ride.togst",                       // RCT1_VEHICLE_TYPE_STANDUP_ROLLER_COASTER_CARS
+            "rct1.ride.stand_up_trains",             // RCT1_VEHICLE_TYPE_STANDUP_ROLLER_COASTER_CARS
             "rct2.ride.wmspin",                      // RCT1_VEHICLE_TYPE_SPINNING_CARS
             "rct1.ride.single_person_swinging_cars", // RCT1_VEHICLE_TYPE_SINGLE_PERSON_SWINGING_CHAIRS
             "rct2.ride.swans",                       // RCT1_VEHICLE_TYPE_SWANS_PEDAL_BOATS
