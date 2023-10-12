@@ -609,7 +609,8 @@ uint32_t Park::CalculateGuestGenerationProbability() const
     }
 
     // Reduces chance for any more than 7000 guests or more guests than the goal if it's higher than 7000
-    if ((numGuests > 7000 && gScenarioObjective.NumGuests <= 7000) || (numGuests > gScenarioObjective.NumGuests && gScenarioObjective.NumGuests > 7000))
+    if ((numGuests > 7000 && gScenarioObjective.NumGuests <= 7000)
+        || (numGuests > gScenarioObjective.NumGuests && gScenarioObjective.NumGuests > 7000))
     {
         probability /= 4;
     }
