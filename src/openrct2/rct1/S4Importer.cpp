@@ -1982,10 +1982,6 @@ namespace RCT1
                         {
                             InsertResearchVehicle(researchItem, researched);
                         }
-                        else if (!rideTypeInResearch[researchItem.RelatedRide] && _gameVersion == FILE_VERSION_RCT1_LL)
-                        {
-                            vehiclesWithMissingRideTypes.push_back(researchItem);
-                        }
 
                         break;
                     }
