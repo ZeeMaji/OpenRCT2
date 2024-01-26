@@ -2366,8 +2366,7 @@ namespace RCT1
                     *colourA = COLOUR_DARK_BROWN;
                     break;
                 case RCT1_WALL_TYPE_WOODEN_PANEL_FENCE_WITH_GATE:
-                    *colourB = *colourA;
-                    *colourA = COLOUR_DARK_BROWN;
+                    *colourA = *colourA;
                     break;
                 case RCT1_WALL_TYPE_GLASS_SMOOTH:
                 case RCT1_WALL_TYPE_GLASS_PANELS:
