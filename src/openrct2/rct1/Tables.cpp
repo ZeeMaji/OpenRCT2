@@ -776,7 +776,7 @@ namespace RCT1
             "rct2.ride.gdrop1",          // RCT1_RIDE_TYPE_ROTO_DROP
             "rct1aa.ride.flying_saucers",           // RCT1_RIDE_TYPE_FLYING_SAUCERS
             "rct2.ride.chbuild",         // RCT1_RIDE_TYPE_CROOKED_HOUSE
-            "rct1aa.ride.bicicles",         // RCT1_RIDE_TYPE_CYCLE_RAILWAY
+            "rct1aa.ride.bicycles",         // RCT1_RIDE_TYPE_CYCLE_RAILWAY
             "rct1.ride.inverted_trains",            // RCT1_RIDE_TYPE_SUSPENDED_LOOPING_ROLLER_COASTER
             "rct1ll.ride.coaster_boats",         // RCT1_RIDE_TYPE_WATER_COASTER
             "rct1ll.ride.air_powered_trains",           // RCT1_RIDE_TYPE_AIR_POWERED_VERTICAL_COASTER
