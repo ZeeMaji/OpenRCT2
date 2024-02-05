@@ -452,7 +452,7 @@ namespace RCT1
                     case RCT1_RESEARCH_TYPE_VEHICLE:
                         // For some bizarre reason, RCT1 research lists contain vehicles that aren't actually researched.
                         // Extra bizarrely, this does not seem to apply to Loopy Landscapes saves/scenarios.
-                        if (rideTypeInResearch[researchItem->RelatedRide] || _gameVersion == FILE_VERSION_RCT1_LL)
+                        if (rideTypeInResearch[researchItem->RelatedRide])
                         {
                             AddEntryForVehicleType(static_cast<RideType>(researchItem->RelatedRide), researchItem->Item);
                         }
@@ -2366,8 +2366,7 @@ namespace RCT1
                     *colourA = COLOUR_DARK_BROWN;
                     break;
                 case RCT1_WALL_TYPE_WOODEN_PANEL_FENCE_WITH_GATE:
-                    *colourB = *colourA;
-                    *colourA = COLOUR_DARK_BROWN;
+                    *colourA = *colourA;
                     break;
                 case RCT1_WALL_TYPE_GLASS_SMOOTH:
                 case RCT1_WALL_TYPE_GLASS_PANELS:
