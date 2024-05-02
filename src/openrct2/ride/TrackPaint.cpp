@@ -257,16 +257,10 @@ void TrackPaintUtilPaintFences(
     }
 }
 
-/* Supports are only placed every 2 tiles for flat pieces*/
+/* Hack for rendering supports on every tile like RCT1*/
 bool TrackPaintUtilShouldPaintSupports(const CoordsXY& position)
 {
-    if ((position.x & (1 << 5)) == (position.y & (1 << 5)))
-        return true;
-
-    if ((!(position.x & (1 << 5))) && (!(position.y & (1 << 5))))
-        return true;
-
-    return false;
+    return true;
 }
 
 static void TrackPaintUtilDrawStationImpl(
