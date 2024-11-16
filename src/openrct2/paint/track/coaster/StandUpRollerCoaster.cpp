@@ -9525,13 +9525,13 @@ static void StandUpRCTrackBooster(
         case 0:
         case 2:
             PaintAddImageAsParentRotated(
-                session, direction, session.TrackColours.WithIndex(SPR_G2_STANDUP_BOOSTER_1), { 0, 0, height },
+                session, direction, session.TrackColours.WithIndex(SPR_G2_STANDUP_BOOSTER_1),
                 { { 0, 6, height }, { 32, 20, 3 } });
             break;
         case 1:
         case 3:
             PaintAddImageAsParentRotated(
-                session, direction, session.TrackColours.WithIndex(SPR_G2_STANDUP_BOOSTER_2), { 0, 0, height },
+                session, direction, session.TrackColours.WithIndex(SPR_G2_STANDUP_BOOSTER_2),
                 { { 0, 6, height }, { 32, 20, 3 } });
             break;
     }
