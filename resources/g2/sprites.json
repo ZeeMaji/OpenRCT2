@@ -10367,6 +10367,16 @@
         "palette": "keep"
     },
     {
+        "path": "track/standup/booster_1.png",
+        "x": -31,
+        "y": -8
+    },
+    {
+        "path": "track/standup/booster_2.png",
+        "x": -19,
+        "y": -8
+    },
+    {
         "path": "track/standup/brake_horizontal.png",
         "x": -32,
         "y": 1,
