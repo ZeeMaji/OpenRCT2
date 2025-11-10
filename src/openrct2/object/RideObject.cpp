@@ -195,7 +195,7 @@ namespace OpenRCT2
         stream->Seek(10, STREAM_SEEK_CURRENT);
         _legacyType.shop_item[0] = static_cast<ShopItem>(stream->ReadValue<uint8_t>());
         _legacyType.shop_item[1] = static_cast<ShopItem>(stream->ReadValue<uint8_t>());
-        
+
         if (_legacyType.ride_type[0] == RIDE_TYPE_ENTERPRISE)
         {
             if (!(_legacyType.flags & RIDE_ENTRY_FLAG_ENTERPRISE_ROTATION_TYPE)
@@ -220,7 +220,7 @@ namespace OpenRCT2
                     ObjectError::ok, "ROTATION TYPE MISMATCH: RIDE IS MERRY-GO-ROUND BUT ROTATION TYPE IS NOT MERRY-GO-ROUND");
             }
         }
-        
+
         GetStringTable().Read(context, stream, ObjectStringID::name);
         GetStringTable().Read(context, stream, ObjectStringID::description);
         GetStringTable().Read(context, stream, ObjectStringID::capacity);
