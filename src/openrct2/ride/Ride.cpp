@@ -4842,7 +4842,7 @@ namespace OpenRCT2
             if (!stationNumTiles.has_value())
                 return;
 
-            auto stationLength = (stationNumTiles.value() * 0x44180) - 0x16B2A;
+            auto stationLength = (stationNumTiles.value() * 0x44180);
             int32_t maxMass = rtd.MaxMass << 8;
             int32_t newMaxCarsPerTrain = 1;
             for (int32_t numCars = rideEntry->max_cars_in_train; numCars > 0; numCars--)
